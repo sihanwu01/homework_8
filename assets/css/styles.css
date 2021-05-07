@@ -140,8 +140,10 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #4f837f;
 }
 
-.h-100 {
-  height: 100% !important;
+.btn-primary:active {
+  color: #fff;
+  background-color: #548b87;
+  border-color: #4f837f;
 }
 
 .align-items-center {
@@ -152,3 +154,38 @@ h1, h2, h3, h4, h5, h6 {
   display: flex !important;
 }
 
+.animation {
+  position: relative;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.animation .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+}
+
+#welcome {
+  height: 100%;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(./assets/images/collage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
