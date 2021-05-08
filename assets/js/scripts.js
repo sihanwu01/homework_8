@@ -52,12 +52,12 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  var targetOffset = $("#projects").offset().top;
-  var $w = $(window).scroll(function(){
-      if ( $w.scrollTop() > targetOffset ) {   
-        $("#current").addClass("active");
-      }
-  });
+  // var targetOffset = $("#projects").offset().top;
+  // var $w = $(window).scroll(function(){
+  //     if ( $w.scrollTop() > targetOffset ) {   
+  //       $("#current").addClass("active");
+  //     }
+  // });
 })(jQuery);
 
 // Text Animation
@@ -121,3 +121,13 @@ anime.timeline({loop: true})
     duration: 500,
     delay: 500
   });
+
+  function hoverNav(el){
+    var e = document.getElementById(el);
+    e.style.color = "#64a19d";
+  }
+
+  function hoverOut(el){
+    var e = document.getElementById(el);
+    e.style.color = "black";
+  }

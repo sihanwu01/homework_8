@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: none;
     padding: 2rem 1.5rem;
   }
-  #mainNav.navbar-shrink .nav-link.active {
+  #mainNav.nav-link.active {
     color: #64a19d;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
