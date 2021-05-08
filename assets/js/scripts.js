@@ -16,7 +16,7 @@
               anime({
                   targets: 'html, body',
                   scrollTop: target.offset().top - 72,
-                  duration: 1000,
+                  duration: 600,
                   easing: 'easeInOutExpo'
               });
               return false;
@@ -52,6 +52,12 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  var targetOffset = $("#projects").offset().top;
+  var $w = $(window).scroll(function(){
+      if ( $w.scrollTop() > targetOffset ) {   
+        $("#current").addClass("active");
+      }
+  });
 })(jQuery);
 
 // Text Animation
