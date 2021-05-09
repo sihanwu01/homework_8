@@ -13,7 +13,6 @@
 }
 
 body {
-  min-height: 75rem;
   padding-top: 4.5rem;
 }
 
@@ -193,7 +192,6 @@ p {
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
-
   .navbar-expand-lg, .container {
     flex-flow: nowrap;
     align-items: center;
@@ -266,6 +264,23 @@ p {
   background-color: white!important;
 }
 
+.img-circle {
+  border-radius: 50%;
+  width: 20rem;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+
+.bio {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 .footer {
   padding: 5rem 0;
   margin-top: 5%;
@@ -274,8 +289,6 @@ p {
 .bg-black {
   background-color: #000000 !important;
 }
-
-
 
 .fa {
   padding: 20px;
